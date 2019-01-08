@@ -1,0 +1,29 @@
+{
+	"PluginFileVersion" : 1,
+	"FriendlyName" : "JCV AGG Plugin",
+	"Version" : 1,
+	"VersionName" : "1.0.0",
+	"CreatedBy" : "", 
+	"CreatedByURL" : "",
+	"Description" : "",
+	"Category" : "Programming",
+	"Modules" :
+	[		
+		{
+			"Name" : "JCVAGGPlugin",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default"
+		}
+	],
+	"Plugins":
+    [
+		{
+			"Name" : "JCVoronoiPlugin",
+			"Enabled": true
+		},
+		{
+			"Name" : "AGGPlugin",
+			"Enabled": true
+		}
+	]
+}
